@@ -1,0 +1,25 @@
+{
+  "gamma": 0.25,
+  "delta": 4.0,
+  "hash_key": 15485863,
+  "prefix_length": 1,
+  "p_threshold": 0.01,
+  "f_scheme": "time",
+  "window_scheme": "left",
+  "master_key": "0011223344556677",
+  "roles": [
+    "NP",
+    "VP",
+    "PP"
+  ],
+  "role_ngram_chars": 16,
+  "spacy_model": "en_core_web_sm",
+  "benepar_model": "benepar_en3",
+  "min_span_tokens": 2,
+  "max_span_tokens": 12,
+  "max_regen_attempts": 4,
+  "max_spans": 4,
+  "rejection_k": 4,
+  "rejection_right_tokens": 16,
+  "algorithm_name": "SpanWM"
+}
